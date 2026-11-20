@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Falha de segurança
+    url: mailto:support@goklahlabs.com.br
+    about: Não abra issue pública. Escreva para support@goklahlabs.com.br, com "Segurança" no assunto.
   - name: Dúvidas e outros assuntos
     url: mailto:support@goklahlabs.com.br
     about: Escreva para support@goklahlabs.com.br.

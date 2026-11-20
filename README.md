@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="imagens/icone.png" width="96" alt="Ícone do ShutUp!">
+  <img src="imagens/icone.png" width="112" alt="Ícone do ShutUp!">
 </p>
 
 <h1 align="center">ShutUp!</h1>
@@ -9,7 +9,8 @@
 <p align="center">
   Em breve na Google Play ·
   <a href="https://goklahlabs.com.br/shutup">Página do app</a> ·
-  <a href="CHANGELOG.md">Novidades</a>
+  <a href="CHANGELOG.md">Novidades</a> ·
+  <a href="#english">English</a>
 </p>
 
 ![ShutUp!](imagens/destaque.png)
@@ -70,6 +71,23 @@ O ShutUp! não tem permissão de internet: nada sai do seu celular. Não tem con
 - **Algo não funcionou?** Abra um [Problema](../../issues/new/choose), dizendo a versão do app e o modelo do celular. **Não coloque números de telefone completos**: escreva só o DDD ou o começo, como (11) 9XXXX-XXXX.
 - **Tem uma ideia?** Abra uma [Sugestão](../../issues/new/choose).
 - **Dúvidas:** escreva para **support@goklahlabs.com.br**, ou use o "Fale conosco" nos Ajustes do app.
+- **Achou uma falha de segurança?** Não abra issue pública: escreva para **support@goklahlabs.com.br**. Veja o [SECURITY.md](SECURITY.md).
+
+---
+
+<a id="english"></a>
+
+## English
+
+**ShutUp! lets you choose who can't call you.** A call blocker for Android, made for Brazilian phone numbers. The app is in Portuguese.
+
+- Block calls by **area code (DDD)**, a whole state at once or every area code outside your state; by a **full number** or every number that **starts the same way**; from **other countries**; or from **anyone who is not in your contacts**.
+- For each rule, choose **Block** (the call is rejected before it rings) or **Silence** (it arrives without sound and stays in missed calls).
+- Your **contacts always ring**, and so do the numbers you allow. Pause blocking for 1 hour, 3 hours or until 8 a.m.
+- **History** grouped by number, with the rule that acted, and allow a number in one tap.
+- Free, no ads, no account and **no internet permission**: nothing leaves your phone. Android 10 or newer. It can't block hidden numbers: Android doesn't let apps do that.
+
+Coming soon to Google Play · [App page](https://goklahlabs.com.br/shutup) · Problems and ideas: [issues](../../issues/new/choose) (never post full phone numbers) · Security reports: support@goklahlabs.com.br (never in a public issue).
 
 ---
 
