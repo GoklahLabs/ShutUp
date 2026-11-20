@@ -1,0 +1,55 @@
+name: Problema
+description: Algo não funcionou no ShutUp!.
+title: "[Problema] "
+labels: ["problema"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por avisar. Quanto mais detalhes, mais rápido dá para corrigir.
+
+        **Não coloque números de telefone completos** (nem o seu, nem o de quem ligou): esta página é pública. Escreva só o DDD ou o começo, como (11) 9XXXX-XXXX.
+  - type: textarea
+    id: oque
+    attributes:
+      label: O que aconteceu
+      description: O que você fez, o que esperava e o que apareceu.
+    validations:
+      required: true
+  - type: dropdown
+    id: onde
+    attributes:
+      label: Em qual parte
+      options:
+        - Uma ligação foi bloqueada ou passou sem querer
+        - Início
+        - Histórico
+        - Regras
+        - Ajustes
+        - Primeira abertura
+        - Compartilhar
+        - Outra
+    validations:
+      required: true
+  - type: input
+    id: regra
+    attributes:
+      label: Regra envolvida
+      description: Se for sobre uma ligação, qual regra você esperava que agisse (sem o número completo).
+      placeholder: "DDD 21 em Bloquear"
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do app
+      description: "No fim dos Ajustes do app (ex.: ShutUp! 2.0.0 · GoklahLabs)."
+      placeholder: "2.0.0"
+    validations:
+      required: true
+  - type: input
+    id: aparelho
+    attributes:
+      label: Celular
+      description: Modelo e versão do Android.
+      placeholder: "Galaxy S23, Android 16"
+    validations:
+      required: true

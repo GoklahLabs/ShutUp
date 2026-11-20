@@ -1,0 +1,26 @@
+name: Sugestão
+description: Uma ideia para o ShutUp! ficar melhor.
+title: "[Sugestão] "
+labels: ["sugestão"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Esta página é pública: não coloque números de telefone completos.
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Sua ideia
+      description: O que você gostaria que o ShutUp! fizesse e em que situação.
+    validations:
+      required: true
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do app
+      placeholder: "2.0.0"
+  - type: input
+    id: aparelho
+    attributes:
+      label: Celular
+      placeholder: "Galaxy S23, Android 16"
